@@ -1,0 +1,17 @@
+@use '../_base/mixin' as mixin;
+@use '../_base/variable' as var;
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+    color: var.$TEXT_NORMAL;
+}
+
+body {
+    margin: 0 !important;
+}
+
+a {
+    text-decoration: none;
+    color: var.$TEXT_NORMAL;
+}

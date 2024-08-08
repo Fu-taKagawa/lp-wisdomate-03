@@ -1,0 +1,24 @@
+@use '../_base/mixin' as mixin;
+@use '../_base/variable' as var;
+
+.l-header {
+    width: 100%;
+
+    &-inner {
+        max-width: 1284px;
+        margin: auto;
+        padding: 20px 5vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__contents {
+        display: flex;
+        gap: 20px;
+
+        &-link {
+            color: var.$TEXT_STRONG;
+            font-size: 1.6rem;
+        }
+    }
+}

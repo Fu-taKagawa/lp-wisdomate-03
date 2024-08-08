@@ -1,0 +1,21 @@
+@use '../_base/mixin' as mixin;
+@use '../_base/variable' as var;
+
+.section {
+    &-inner {
+        max-width: 1284px;
+        margin: auto;
+        padding: 48px 0;
+        width: 95%;
+    }
+
+    &--bgGray {
+        background-color: var.$BACKGROUND_GRAY;
+    }
+
+    @include mixin.pc {
+        &-inner {
+            width: 100%;
+        }
+    }
+}
