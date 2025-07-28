@@ -3,14 +3,9 @@
 
 .section {
     &-inner {
-        max-width: 1284px;
+        max-width: 500px;
+        width: 100%;
         margin: auto;
-        padding: 48px 0;
-        width: 95%;
-    }
-
-    &--bgGray {
-        background-color: var.$BACKGROUND_GRAY;
     }
 
     @include mixin.pc {

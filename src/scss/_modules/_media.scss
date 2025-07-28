@@ -1,0 +1,21 @@
+@use '../_base/mixin' as mixin;
+@use '../_base/variable' as variable;
+
+.m-media {
+    width: 100%;
+    position: relative;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    &-cta {
+        position: absolute;
+        bottom: 10px;
+        width: 90%;
+        margin: auto;
+        inset-inline: 0;
+        display: block;
+    }
+}
