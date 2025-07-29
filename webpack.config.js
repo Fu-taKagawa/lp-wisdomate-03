@@ -26,7 +26,7 @@ module.exports = {
             directory: path.join(__dirname, 'dist'),
         },
         compress: true,
-        port: 8000,
+        port: 8080,
         hot: true,
         watchFiles: ['src/**/*']
     }
