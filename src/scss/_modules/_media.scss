@@ -17,5 +17,12 @@
         margin: auto;
         inset-inline: 0;
         display: block;
+        animation: pulsation 1.6s alternate infinite;
     }
+}
+
+@keyframes pulsation {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.9); }
+    100% { transform: scale(1); }
 }
